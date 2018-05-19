@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "analytics-srv": "1.0.0",
+    "data-srv": "1.0.0",
+    "fetch-ponyfill": "^6.0.2",
+    "history": "^4.7.2",
+    "jwt-decode": "^2.2.0",
+    "lib": "1.0.0",
+    "ramda": "^0.25.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "universal-router": "^6.0.0",
+    "user-srv": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
