@@ -4,6 +4,9 @@
   "main": "build/cjs/index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build" : "node ./_scripts/build.js"
+  },
   "dependencies": {
     "lib": "1.0.0",
     "ramda": "^0.25.0",

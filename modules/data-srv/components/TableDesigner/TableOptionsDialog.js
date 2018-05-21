@@ -1,6 +1,5 @@
 /* eslint-disable react/display-name */
 import React from "react";
-import { fetch } from "web-common";
 import { Dialog, Button, Controls } from "lib";
 const getWorkbooks = () => fetch("GET", "/api/formBuilder/books");
 
